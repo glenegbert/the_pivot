@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @items = Item.all
+    @items = Item.limit(3)
   end
 
   def show

@@ -16,11 +16,40 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-left" id="navbar-left">
       <li id="brand-name"><%= link_to "Dope Threads", root_path %></li>
-      <li><%= link_to "Menu", categories_path %></li>
-      <li><%= link_to "About", about_path %></li>
-      <li><%= link_to "News and Blog", gift_cards_path %></li>
-      <li><%= link_to "Contact Us", contact_us_path %></li>
-      <li><%= link_to "Create Account", new_user_path %></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Bottoms</a></li>
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">Hoodies & Jackets</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Shoes</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Bags & Purses</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Shoes</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kids <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Boys</a></li>
+            <li><a href="#">Girls</a></li>
+            <li><a href="#">Baby & Toddler</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Kids Shoes</a></li>
+          </ul>
+        </li>
+        <li><%= link_to "Contact Us", contact_us_path %></li>
+        <li><%= link_to "Create Account", new_user_path %></li>
 
     </ul>
     <div class="navbar-collapse collapse">
