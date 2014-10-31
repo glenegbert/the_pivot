@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1> Welcome to Deep Threads <%= @user.full_name %> </h1>
+    <p> You can login to your account at https://young-ocean-9633.herokuapp.com/. <br>
+    <br>
+        Here are a couple of tips to help you get started:
+          <ul>
+          <li>Should you ever encounter problems with your account or forget your password we will contact you at this address.</li>
+          <li>Log into your account to review past orders and tracking information. </li>
+          <li>Download the mobile app for Android or iPhone and iPad to stay connected on the go. </li>
+          </ul>
+
+<br>
+  Enjoy! <br>
+  <br>
+
+  The Dope Threads Team
+    </p>
+  </body>
+</html>

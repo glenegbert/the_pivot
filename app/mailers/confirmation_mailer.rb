@@ -4,6 +4,5 @@ class ConfirmationMailer < ActionMailer::Base
   def confirmation_email(user)
     @user = user
     mail(to: @user.email_address, subject: "order confirmation" )
-
   end
 end
