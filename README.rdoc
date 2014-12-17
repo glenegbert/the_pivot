@@ -3,4 +3,4 @@
 
 The Pivot is a collaborative Ruby on Rails Project also known as Dope Threads. Dope Threads is a retail platform for custom clothing vendors. This application features: a vendor management system, user notifications with background workers and multi-store administration for vendors.   My areas of focus for this project included - AWS, TDD, UX/UI, Redis and Authorization.
 
-Production Website - https://young-ocean-9633.herokuapp.com/
+Production Website - https://dopethreads.herokuapp.com/
